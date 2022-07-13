@@ -32,7 +32,7 @@
   background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png), url(./Mobile/Logo/Ilustração_\(3\).png);
   background-repeat: no-repeat;
   background-position: 0 0, 0 0, center right, center bottom;
-  background-size: 92%, 97%, 20%, 60%;
+  background-size: 92vw, 97vw, 20vw, 60vw;
 }
 .main-container{
   display: flex;
@@ -110,7 +110,7 @@
 }
 @media(min-width:442px){
   .container{
-    background-size: 70%, 74%, 14%, 55%;
+    background-size: 70vw, 74vw, 14vw, 55vw;
   }
   .navbar{
     gap: 7vh;
@@ -154,7 +154,7 @@
 }
 @media(min-width:530px){
   .container{
-    background-size: 60%, 64%, 14%, 50%;
+    background-size: 60vw, 64vw, 14vw, 50vw;
   }
   .navbar{
     gap: 7vh;
@@ -198,7 +198,7 @@
 } 
 @media(min-width:768px){
   .container{
-    background-size: 70%, 74%, 14%, 35%;
+    background-size: 70vw, 74vw, 14vw, 35vw;
   }
   .navbar{
     gap: 7vh;
@@ -242,7 +242,7 @@
 }
 @media(min-width:1024px){
   .container{
-    background-size: 45%, 47%, 9%, 26%;
+    background-size: 45vw, 47vw, 9vw, 26vw;
   }
   .navbar{
     gap: 7vh;
@@ -286,7 +286,7 @@
 }
 @media(min-width:1440px){
   .container{
-    background-size: 35%, 37%, 7%, 22%;
+    background-size: 35vw, 37vw, 7vw, 22vw;
   }
   .navbar{
     gap: 7vh;
@@ -330,7 +330,7 @@
 }
 @media(min-width:2560px){
   .container{
-    background-size: 35%, 37%, 7%, 22%;
+    background-size: 35vw, 37vw, 7vw, 22vw;
   }
   .navbar{
     gap: 7vh;
