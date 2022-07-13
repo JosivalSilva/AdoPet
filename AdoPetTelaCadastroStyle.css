@@ -1,0 +1,405 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+/*   font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+}
+.navbar{
+  display: flex;
+  justify-content:start;
+  align-items:flex-end;
+  width:100%;
+  height: 10vh;
+  background-color:transparent;
+  gap: 9vh;
+}
+.logoHeader{
+  height: 29px;
+  display: none;
+}
+.btnHome{
+  width: 19px;
+  height: 23px;
+}
+.btnEmail{
+  width: 23px;
+  height: 19px;
+}
+.container{
+  background-color:  #fff;
+  background-image:  url(./Mobile/Logo/Patinhas2.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Mobile/Logo/Sem\ título.png);
+  background-repeat: no-repeat;
+  background-position: top right, 0 0, 0 0, left 90%;
+  background-size: 40%, 92%, 97%, 45%;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  text-align: center;
+}
+.imgLogo{
+  height: 28.6px;
+  position: absolute;
+  top: 24%;
+}
+.txtCadastro{
+  background-color:transparent;
+  width: 312px;
+  height: 71px;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 21px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #3772FF;
+  position: absolute;
+}
+#txtCad1{
+  top: 29%;
+}
+#txtCad2{
+  top: 34%;
+}
+.inputs{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  position: absolute;
+  align-items: center;
+  top: 41%;
+}
+.inputs label{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #737380;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.inputs input{
+  text-align: center;
+  width: 312px;
+  height: 40px;
+  background-color: #f7f7f7;
+  border: none;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #BCBCBC;
+}
+.btnCadastrar{
+  width: 148px;
+  height: 40px;
+  background-color: #FC7071;
+  border: none;
+  border-radius: 6px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16;
+  font-weight: 600;
+  line-height: 24px;
+  color: #fff;
+  position: absolute;
+  top: 93%;
+}
+.footerbar{
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  background-color: #36D6AD;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 24px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 10px;
+}
+@media(min-width:442px){
+  .container{
+    background-size: 70%, 74%, 14%, 55%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+ /*  .logoHeader{
+    display:inline-block;
+    margin-left: 60px;
+  } */
+  .btnHome{
+    margin-left: 20px;
+  }
+  .imgLogo{
+    height: 56px;
+    position: absolute;
+    top: 18%;
+  }
+  .txtBoasvindas{
+    width: 233px;
+    height: 48px;
+    font-size: 28px;
+    top: 27%;
+  }
+  .txtAdote{
+    width: 344px;
+    height: 78px;
+    font-size: 20px;
+    line-height: 26px;
+    top: 35%;
+  }
+  .btnCadastrado, .btnCadastrar{
+    width: 280px;
+    height: 48px;
+    font-size: 20;
+  }
+  .btnCadastrado{
+    top: 48%;
+  }
+  .btnCadastrar{
+    top: 58%;
+  }
+}
+@media(min-width:530px){
+  .container{
+    background-size: 60%, 64%, 14%, 50%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+ /*  .logoHeader{
+    display:inline-block;
+    margin-left: 60px;
+  } */
+  .btnHome{
+    margin-left: 20px;
+  }
+  .imgLogo{
+    height: 48px;
+    position: absolute;
+    top: 18%;
+  }
+  .txtBoasvindas{
+    width: 233px;
+    height: 48px;
+    font-size: 28px;
+    top: 27%;
+  }
+  .txtAdote{
+    width: 344px;
+    height: 78px;
+    font-size: 20px;
+    line-height: 26px;
+    top: 35%;
+  }
+  .btnCadastrado, .btnCadastrar{
+    width: 280px;
+    height: 48px;
+    font-size: 20;
+  }
+  .btnCadastrado{
+    top: 48%;
+  }
+  .btnCadastrar{
+    top: 58%;
+  }
+} 
+@media(min-width:768px){
+  .container{
+  background-image:  url(./Mobile/Logo/Patinhas2.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+  background-repeat: no-repeat;
+  background-position: top right, 0 0, 0 0, right 64%;
+  background-size: 28%, 68%, 73%, 15%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+  .logoHeader{
+    display:inline-block;
+    margin-left: 60px;
+  }
+  .btnHome{
+    margin-left: 0px;
+  }
+  .imgLogo{
+    height: 56px;
+    position: absolute;
+    top: 26%;
+  }
+  .txtCadastro{
+    width: 525px;
+    height: 78px;
+    font-size: 18px;
+    line-height: 26px;
+    top: 35%;
+  }
+  #txtCad1{
+    top: 35%;
+  }
+  #txtCad2{
+    top: 38%;
+  }
+  .inputs{
+    top: 45%;
+    gap: 10px;
+  }
+  .inputs label{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .inputs input{
+    width: 344px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .btnCadastrar{
+    width: 164px;
+    height: 40px;
+    top: 88%;
+  }
+}
+@media(width:1024px){
+  .container{
+    background-size: 45%, 47%, 9%, 26%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+  .logoHeader{
+    display:inline-block;
+    margin-left: 100px;
+  }
+  .btnHome{
+    margin-left: 0px;
+  }
+  .imgLogo{
+    height: 54px;
+    position: absolute;
+    top: 17%;
+  }
+  .txtBoasvindas{
+    width: 233px;
+    height: 48px;
+    font-size: 28px;
+    top: 25%;
+  }
+  .txtAdote{
+    width: 488px;
+    height: 52px;
+    font-size: 20px;
+    line-height: 26px;
+    top: 34%;
+  }
+  .btnCadastrado, .btnCadastrar{
+    width: 362px;
+    height: 42px;
+    font-size: 20;
+  }
+  .btnCadastrado{
+    top: 45%;
+  }
+  .btnCadastrar{
+    top: 53%;
+  }
+}
+@media(width:1440px){
+  .container{
+    background-size: 35%, 37%, 7%, 22%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+  .logoHeader{
+    display:inline-block;
+    margin-left: 100px;
+  }
+  .btnHome{
+    margin-left: 0px;
+  }
+  .imgLogo{
+    height: 54px;
+    position: absolute;
+    top: 14%;
+  }
+  .txtBoasvindas{
+    width: 233px;
+    height: 48px;
+    font-size: 28px;
+    top: 25%;
+  }
+  .txtAdote{
+    width: 488px;
+    height: 52px;
+    font-size: 20px;
+    line-height: 26px;
+    top: 34%;
+  }
+  .btnCadastrado, .btnCadastrar{
+    width: 362px;
+    height: 42px;
+    font-size: 20;
+  }
+  .btnCadastrado{
+    top: 45%;
+  }
+  .btnCadastrar{
+    top: 53%;
+  }
+}
+@media(width:2560px){
+  .container{
+    background-size: 35%, 37%, 7%, 22%;
+  }
+  .navbar{
+    gap: 7vh;
+  }
+  .logoHeader{
+    display:inline-block;
+    margin-left: 100px;
+  }
+  .btnHome{
+    margin-left: 0px;
+  }
+  .imgLogo{
+    height: 54px;
+    position: absolute;
+    top: 14%;
+  }
+  .txtBoasvindas{
+    width: 233px;
+    height: 48px;
+    font-size: 28px;
+    top: 25%;
+  }
+  .txtAdote{
+    width: 488px;
+    height: 52px;
+    font-size: 20px;
+    line-height: 26px;
+    top: 34%;
+  }
+  .btnCadastrado, .btnCadastrar{
+    width: 362px;
+    height: 42px;
+    font-size: 20;
+  }
+  .btnCadastrado{
+    top: 45%;
+  }
+  .btnCadastrar{
+    top: 53%;
+  }
+}
