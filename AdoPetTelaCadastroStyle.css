@@ -8,7 +8,7 @@
 .navbar{
   display: flex;
   justify-content:start;
-  align-items:flex-end;
+  align-items:center;
   width:100%;
   height: 10vh;
   background-color:transparent;
@@ -28,10 +28,10 @@
 }
 .container{
   background-color:  #fff;
-  background-image:  url(./Mobile/Logo/Patinhas2.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Mobile/Logo/Sem\ título.png);
+  background-image:  url(./Mobile/Logo/Patas.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Mobile/Logo/esquerdo.png);
   background-repeat: no-repeat;
   background-position: top right, 0 0, 0 0, left 90%;
-  background-size: 40%, 92%, 97%, 45%;
+  background-size: 42vw, 92vw, 97vw, 23vh;
 }
 .main-container{
   display: flex;
@@ -60,10 +60,10 @@
   position: absolute;
 }
 #txtCad1{
-  top: 29%;
+  top: 34vh;
 }
 #txtCad2{
-  top: 34%;
+  top: 38vh;
 }
 .inputs{
   display: flex;
@@ -71,7 +71,7 @@
   flex-wrap: wrap;
   position: absolute;
   align-items: center;
-  top: 41%;
+  top: 43vh;
 }
 .inputs label{
   font-family: 'Poppins', sans-serif;
@@ -111,7 +111,7 @@
   line-height: 24px;
   color: #fff;
   position: absolute;
-  top: 93%;
+  top: 93vh;
 }
 .footerbar{
   display: flex;
@@ -129,100 +129,62 @@
   position: absolute;
   padding: 10px;
 }
-@media(min-width:442px){
-  .container{
-    background-size: 70%, 74%, 14%, 55%;
+@media(min-width:280px){
+  .txtCadastro{
+    background-color:transparent;
+    width: 260px;
+    height: 71px;
   }
-  .navbar{
-    gap: 7vh;
+  #txtCad1{
+    top: 30vh;
   }
- /*  .logoHeader{
-    display:inline-block;
-    margin-left: 60px;
-  } */
-  .btnHome{
-    margin-left: 20px;
-  }
-  .imgLogo{
-    height: 56px;
-    position: absolute;
-    top: 18%;
-  }
-  .txtBoasvindas{
-    width: 233px;
-    height: 48px;
-    font-size: 28px;
-    top: 27%;
-  }
-  .txtAdote{
-    width: 344px;
-    height: 78px;
-    font-size: 20px;
-    line-height: 26px;
-    top: 35%;
-  }
-  .btnCadastrado, .btnCadastrar{
-    width: 280px;
-    height: 48px;
-    font-size: 20;
-  }
-  .btnCadastrado{
-    top: 48%;
+  #txtCad2{
+    top: 34vh;
   }
   .btnCadastrar{
-    top: 58%;
+    top: 98vh;
+  }
+  .inputs input{
+    width: 250px;
+    height: 40px;
+  }
+  .footerbar{
+    font-size: 14px;
+  }
+}
+@media(min-width:375px){
+  .btnCadastrar{
+    top: 98vh;
   }
 }
 @media(min-width:530px){
   .container{
-    background-size: 60%, 64%, 14%, 50%;
+    background-size: 40vw, 83vw, 85vw, 18vh;
   }
   .navbar{
     gap: 7vh;
   }
- /*  .logoHeader{
-    display:inline-block;
-    margin-left: 60px;
-  } */
   .btnHome{
     margin-left: 20px;
   }
   .imgLogo{
     height: 48px;
     position: absolute;
-    top: 18%;
+    top: 26%;
   }
-  .txtBoasvindas{
-    width: 233px;
-    height: 48px;
-    font-size: 28px;
-    top: 27%;
-  }
-  .txtAdote{
-    width: 344px;
-    height: 78px;
-    font-size: 20px;
-    line-height: 26px;
-    top: 35%;
-  }
-  .btnCadastrado, .btnCadastrar{
+  .btnCadastrar{
     width: 280px;
     height: 48px;
     font-size: 20;
+    top: 95vh;
   }
-  .btnCadastrado{
-    top: 48%;
-  }
-  .btnCadastrar{
-    top: 58%;
-  }
-} 
+}
 @media(min-width:768px){
   .container{
-  background-image:  url(./Mobile/Logo/Patinhas2.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+  background-image:  url(./Mobile/Logo/Patas.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
   background-repeat: no-repeat;
   background-position: top right, 0 0, 0 0, right 64%;
-  background-size: 28%, 68%, 73%, 15%;
+  background-size: 28%, 68%, 73%, 13vh;
   }
   .navbar{
     gap: 7vh;
@@ -271,11 +233,72 @@
     top: 88%;
   }
 }
+@media(min-width:958px){
+  .container{
+    background-size: 22vw, 50vw, 52vw, 11vh;
+  }
+}
 @media(width:1024px){
   .container{
-    background-size: 45%, 47%, 9%, 26%;
+    background-size: 22vw, 37vw, 39vw, 11vh;
   }
   .navbar{
+    gap: 4vw;
+  }
+  .logoHeader{
+    display:inline-block;
+    margin-left: 7vw;
+  }
+  .btnHome{
+    margin-left: 0px;
+  }
+  .imgLogo{
+    height: 50px;
+    position: absolute;
+    top:6vh;
+  }
+  .txtCadastro{
+    width: 400px;
+    height: 78px;
+    font-size: 18px;
+    line-height: 26px;
+  }
+  #txtCad1{
+    top: 17vh;
+  }
+  #txtCad2{
+    top: 21vh;
+  }
+  .inputs{
+    top: 28vh;
+  }
+  .inputs label{
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+  }
+  .inputs input{
+    width: 500px;
+    height: 45px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+
+  .btnCadastrar{
+    width: 174px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    top: 97vh;
+  }
+}
+@media(width:1280px){
+  .container{
+    background-size: 22vw, 37vw, 40vw, 15vh;
+  }
+  .navbar{
+    height: 15vh;
     gap: 7vh;
   }
   .logoHeader{
@@ -286,41 +309,50 @@
     margin-left: 0px;
   }
   .imgLogo{
-    height: 54px;
+    height: 68px;
     position: absolute;
-    top: 17%;
+    top:14vh;
   }
-  .txtBoasvindas{
-    width: 233px;
-    height: 48px;
-    font-size: 28px;
-    top: 25%;
-  }
-  .txtAdote{
-    width: 488px;
-    height: 52px;
-    font-size: 20px;
+  .txtCadastro{
+    width: 522px;
+    height: 78px;
+    font-size: 18px;
     line-height: 26px;
-    top: 34%;
   }
-  .btnCadastrado, .btnCadastrar{
-    width: 362px;
-    height: 42px;
-    font-size: 20;
+  .inputs{
+    top: 38vh;
   }
-  .btnCadastrado{
-    top: 45%;
+  .inputs label{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .inputs input{
+    width: 552px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #txtCad1{
+    top: 25vh;
+  }
+  #txtCad2{
+    top: 28vh;
   }
   .btnCadastrar{
-    top: 53%;
+    width: 250px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 24px;
+    top: 97vh;
   }
 }
 @media(width:1440px){
   .container{
-    background-size: 35%, 37%, 7%, 22%;
+    background-size: 22vw, 37vw, 40vw, 15vh;
   }
   .navbar{
     gap: 7vh;
+    height: 18vh;
   }
   .logoHeader{
     display:inline-block;
@@ -330,41 +362,55 @@
     margin-left: 0px;
   }
   .imgLogo{
-    height: 54px;
+    height: 68px;
     position: absolute;
-    top: 14%;
+    top:14vh;
   }
-  .txtBoasvindas{
-    width: 233px;
-    height: 48px;
-    font-size: 28px;
-    top: 25%;
-  }
-  .txtAdote{
-    width: 488px;
-    height: 52px;
-    font-size: 20px;
+  .txtCadastro{
+    width: 522px;
+    height: 78px;
+    font-size: 18px;
     line-height: 26px;
-    top: 34%;
   }
-  .btnCadastrado, .btnCadastrar{
-    width: 362px;
-    height: 42px;
-    font-size: 20;
+  .inputs{
+    top: 38vh;
   }
-  .btnCadastrado{
-    top: 45%;
+  .inputs label{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .inputs input{
+    width: 552px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #txtCad1{
+    top: 25vh;
+  }
+  #txtCad2{
+    top: 28vh;
   }
   .btnCadastrar{
-    top: 53%;
+    width: 174px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    top: 90vh;
+  }
+}
+@media(min-width:1710px){
+  .container{
+    background-size: 22vw, 30vw, 32vw, 11vh;
   }
 }
 @media(width:2560px){
   .container{
-    background-size: 35%, 37%, 7%, 22%;
+    background-size: 14vw, 30vw, 33vw, 12vh;
   }
   .navbar{
     gap: 7vh;
+    height: 20vh;
   }
   .logoHeader{
     display:inline-block;
@@ -374,32 +420,40 @@
     margin-left: 0px;
   }
   .imgLogo{
-    height: 54px;
+    height: 68px;
     position: absolute;
-    top: 14%;
+    top:14vh;
   }
-  .txtBoasvindas{
-    width: 233px;
-    height: 48px;
-    font-size: 28px;
-    top: 25%;
-  }
-  .txtAdote{
-    width: 488px;
-    height: 52px;
-    font-size: 20px;
+  .txtCadastro{
+    width: 522px;
+    height: 78px;
+    font-size: 18px;
     line-height: 26px;
-    top: 34%;
   }
-  .btnCadastrado, .btnCadastrar{
-    width: 362px;
-    height: 42px;
-    font-size: 20;
+  .inputs{
+    top: 38vh;
   }
-  .btnCadastrado{
-    top: 45%;
+  .inputs label{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .inputs input{
+    width: 552px;
+    height: 48px;
+    font-size: 16px;
+    line-height: 16px;
+  }
+  #txtCad1{
+    top: 25vh;
+  }
+  #txtCad2{
+    top: 28vh;
   }
   .btnCadastrar{
-    top: 53%;
+    width: 250px;
+    height: 48px;
+    font-size: 22px;
+    line-height: 24px;
+    top: 90vh;
   }
 }

@@ -2,8 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-/*   font-family: 'IBM Plex Sans', sans-serif;
-  font-family: 'Poppins', sans-serif; */
 }
 .navbar{
   display: flex;
@@ -21,7 +19,6 @@
 .btnHome{
   width: 19px;
   height: 23px;
-  /* margin-left: 50px; */
 }
 .btnEmail{
   width: 23px;
@@ -32,7 +29,7 @@
   background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png), url(./Mobile/Logo/Ilustração_\(3\).png);
   background-repeat: no-repeat;
   background-position: 0 0, 0 0, center right, center bottom;
-  background-size: 92vw, 97vw, 20vw, 60vw;
+  background-size: 92vw, 97vw, 20vw, 30vh;
 }
 .main-container{
   display: flex;
@@ -110,7 +107,7 @@
 }
 @media(min-width:442px){
   .container{
-    background-size: 70vw, 74vw, 14vw, 55vw;
+    background-size: 76vw, 80vw, 8vh, 38vh;
   }
   .navbar{
     gap: 7vh;
@@ -152,17 +149,13 @@
     top: 58%;
   }
 }
-@media(min-width:530px){
+@media(min-width:540px){
   .container{
-    background-size: 60vw, 64vw, 14vw, 50vw;
+    background-size: 60vw, 64vw, 10vh, 37vh;
   }
   .navbar{
     gap: 7vh;
   }
- /*  .logoHeader{
-    display:inline-block;
-    margin-left: 60px;
-  } */
   .btnHome{
     margin-left: 20px;
   }
@@ -198,7 +191,7 @@
 } 
 @media(min-width:768px){
   .container{
-    background-size: 70vw, 74vw, 14vw, 35vw;
+    background-size: 70vw, 74vw, 14vh, 32vh;
   }
   .navbar{
     gap: 7vh;
@@ -242,7 +235,7 @@
 }
 @media(min-width:1024px){
   .container{
-    background-size: 45vw, 47vw, 9vw, 26vw;
+    background-size: 45vw, 47vw, 12vh, 38vh;
   }
   .navbar{
     gap: 7vh;
@@ -286,7 +279,7 @@
 }
 @media(min-width:1440px){
   .container{
-    background-size: 35vw, 37vw, 7vw, 22vw;
+    background-size: 35vw, 37vw, 14vh, 41vh;
   }
   .navbar{
     gap: 7vh;
@@ -330,7 +323,7 @@
 }
 @media(min-width:2560px){
   .container{
-    background-size: 35vw, 37vw, 7vw, 22vw;
+    background-size: 35vw, 37vw, 14vh, 42vh;
   }
   .navbar{
     gap: 7vh;
