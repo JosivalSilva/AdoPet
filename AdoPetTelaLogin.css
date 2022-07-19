@@ -37,7 +37,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: auto;
   min-height: 100vh;
   align-items: center;
   text-align: center;
@@ -95,7 +95,7 @@
 }
 .txtEsqueciSenha{
   position: absolute;
-  top: 24vh;
+  top: 26vh;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -191,7 +191,7 @@
     background-size: 22vw, 50vw, 52vw, 11vh;
   }
 }
-@media(width:1024px){
+@media(min-width:1024px){
   .container{
     background-size: 28vw, 45vw, 47vw, 14vh;
   }
@@ -233,7 +233,7 @@
     line-height: 16px;
   }
   .txtEsqueciSenha{
-    top: 24vh;
+    top: 33vh;
   }
   .btnEntrar{
     width: 174px;
@@ -243,7 +243,19 @@
     top: 80vh;
   }
 }
-@media(width:1280px){
+@media(min-width:1180px){
+  .txtEsqueciSenha{
+    top: 32vh;
+  }
+  .btnEntrar{
+    width: 250px;
+    height: 48px;
+    font-size: 20px;
+    line-height: 24px;
+    top: 85vh;
+  }
+}
+@media(min-width:1280px){
   .container{
     background-size: 22vw, 37vw, 40vw, 15vh;
   }
@@ -283,17 +295,17 @@
     line-height: 16px;
   }
   .txtEsqueciSenha{
-    top: 24vh;
+    top: 35vh;
   }
   .btnEntrar{
     width: 250px;
     height: 48px;
     font-size: 20px;
     line-height: 24px;
-    top: 75vh;
+    top: 80vh;
   }
 }
-@media(width:1440px){
+@media(min-width:1440px){
   .container{
     background-size: 22vw, 37vw, 40vw, 15vh;
   }
@@ -363,7 +375,7 @@
     top: 75vh;
   }
 }
-@media(width:2560px){
+@media(min-width:2560px){
   .container{
     background-size: 14vw, 30vw, 33vw, 12vh;
   }
