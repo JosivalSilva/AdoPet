@@ -45,12 +45,12 @@
 .imgLogo{
   height: 28.6px;
   position: absolute;
-  top: 24%;
+  top: 20%;
 }
-.txtCadastro{
+.txtLogin{
   background-color:transparent;
   width: 312px;
-  height: 71px;
+  height: 21px;
   font-style: normal;
   font-size: 16px;
   line-height: 21px;
@@ -58,12 +58,7 @@
   font-weight: 400;
   color: #3772FF;
   position: absolute;
-}
-#txtCad1{
-  top: 34vh;
-}
-#txtCad2{
-  top: 38vh;
+  top: 35vh;
 }
 .inputs{
   display: flex;
@@ -71,7 +66,7 @@
   flex-wrap: wrap;
   position: absolute;
   align-items: center;
-  top: 43vh;
+  top: 39vh;
 }
 .inputs label{
   font-family: 'Poppins', sans-serif;
@@ -98,7 +93,18 @@
   line-height: 16px;
   color: #BCBCBC;
 }
-.btnCadastrar{
+.txtEsqueciSenha{
+  position: absolute;
+  top: 24vh;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  color: #FC7071;
+  text-decoration: underline;
+}
+.btnEntrar{
   width: 148px;
   height: 40px;
   background-color: #FC7071;
@@ -111,7 +117,7 @@
   line-height: 24px;
   color: #fff;
   position: absolute;
-  top: 93vh;
+  top: 70vh;
 }
 .footerbar{
   display: flex;
@@ -128,56 +134,6 @@
   align-items: center;
   position: absolute;
   padding: 10px;
-}
-@media(min-width:280px){
-  .txtCadastro{
-    background-color:transparent;
-    width: 260px;
-    height: 71px;
-  }
-  #txtCad1{
-    top: 30vh;
-  }
-  #txtCad2{
-    top: 34vh;
-  }
-  .btnCadastrar{
-    top: 98vh;
-  }
-  .inputs input{
-    width: 250px;
-    height: 40px;
-  }
-  .footerbar{
-    font-size: 14px;
-  }
-}
-@media(min-width:375px){
-  .btnCadastrar{
-    top: 98vh;
-  }
-}
-@media(min-width:530px){
-  .container{
-    background-size: 40vw, 83vw, 85vw, 18vh;
-  }
-  .navbar{
-    gap: 7vh;
-  }
-  .btnHome{
-    margin-left: 20px;
-  }
-  .imgLogo{
-    height: 48px;
-    position: absolute;
-    top: 26%;
-  }
-  .btnCadastrar{
-    width: 280px;
-    height: 48px;
-    font-size: 20;
-    top: 95vh;
-  }
 }
 @media(min-width:768px){
   .container{
@@ -201,18 +157,12 @@
     position: absolute;
     top: 26%;
   }
-  .txtCadastro{
+  .txtLogin{
     width: 525px;
     height: 78px;
     font-size: 18px;
     line-height: 26px;
     top: 35%;
-  }
-  #txtCad1{
-    top: 35%;
-  }
-  #txtCad2{
-    top: 38%;
   }
   .inputs{
     top: 45%;
@@ -227,10 +177,13 @@
     height: 40px;
     font-size: 16px;
   }
-  .btnCadastrar{
+  .txtEsqueciSenha{
+    top: 20vh;
+  }
+  .btnEntrar{
     width: 164px;
     height: 40px;
-    top: 88%;
+    top: 68vh;
   }
 }
 @media(min-width:958px){
@@ -240,7 +193,7 @@
 }
 @media(width:1024px){
   .container{
-    background-size: 22vw, 37vw, 39vw, 11vh;
+    background-size: 28vw, 45vw, 47vw, 14vh;
   }
   .navbar{
     gap: 4vw;
@@ -255,22 +208,17 @@
   .imgLogo{
     height: 50px;
     position: absolute;
-    top:6vh;
+    top:18vh;
   }
-  .txtCadastro{
+  .txtLogin{
     width: 400px;
     height: 78px;
     font-size: 18px;
     line-height: 26px;
-  }
-  #txtCad1{
-    top: 17vh;
-  }
-  #txtCad2{
-    top: 21vh;
+    top: 28vh;
   }
   .inputs{
-    top: 28vh;
+    top: 42vh;
   }
   .inputs label{
     font-size: 18px;
@@ -284,13 +232,15 @@
     font-size: 16px;
     line-height: 16px;
   }
-
-  .btnCadastrar{
+  .txtEsqueciSenha{
+    top: 24vh;
+  }
+  .btnEntrar{
     width: 174px;
     height: 40px;
     font-size: 18px;
     line-height: 24px;
-    top: 99vh;
+    top: 80vh;
   }
 }
 @media(width:1280px){
@@ -313,7 +263,7 @@
     position: absolute;
     top:14vh;
   }
-  .txtCadastro{
+  .txtLogin{
     width: 522px;
     height: 78px;
     font-size: 18px;
@@ -332,18 +282,15 @@
     font-size: 16px;
     line-height: 16px;
   }
-  #txtCad1{
-    top: 25vh;
+  .txtEsqueciSenha{
+    top: 24vh;
   }
-  #txtCad2{
-    top: 28vh;
-  }
-  .btnCadastrar{
+  .btnEntrar{
     width: 250px;
     height: 48px;
     font-size: 20px;
     line-height: 24px;
-    top: 97vh;
+    top: 75vh;
   }
 }
 @media(width:1440px){
@@ -362,15 +309,16 @@
     margin-left: 0px;
   }
   .imgLogo{
-    height: 68px;
+    height: 54px;
     position: absolute;
     top:14vh;
   }
-  .txtCadastro{
-    width: 522px;
-    height: 78px;
+  .txtLogin{
+    width: 488px;
+    height: 21px;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 21px;
+    top: 26vh;
   }
   .inputs{
     top: 38vh;
@@ -381,27 +329,38 @@
   }
   .inputs input{
     width: 552px;
-    height: 48px;
+    height: 40px;
     font-size: 16px;
     line-height: 16px;
   }
-  #txtCad1{
-    top: 25vh;
+  #inputSenha{
+    width: 362px;
+    height: 40px;
   }
-  #txtCad2{
-    top: 28vh;
+  .txtEsqueciSenha{
+    top: 20vh;
   }
-  .btnCadastrar{
+  .btnEntrar{
     width: 174px;
     height: 40px;
     font-size: 18px;
     line-height: 24px;
-    top: 99vh;
+    top: 63vh;
   }
 }
 @media(min-width:1710px){
   .container{
     background-size: 22vw, 30vw, 32vw, 11vh;
+  }
+  .txtEsqueciSenha{
+    top: 20vh;
+  }
+  .btnEntrar{
+    width: 174px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 24px;
+    top: 75vh;
   }
 }
 @media(width:2560px){
@@ -424,7 +383,7 @@
     position: absolute;
     top:14vh;
   }
-  .txtCadastro{
+  .txtLogin{
     width: 522px;
     height: 78px;
     font-size: 18px;
@@ -443,17 +402,14 @@
     font-size: 16px;
     line-height: 16px;
   }
-  #txtCad1{
-    top: 25vh;
+  .txtEsqueciSenha{
+    top: 22vh;
   }
-  #txtCad2{
-    top: 28vh;
-  }
-  .btnCadastrar{
-    width: 250px;
-    height: 48px;
-    font-size: 22px;
+  .btnEntrar{
+    width: 174px;
+    height: 40px;
+    font-size: 18px;
     line-height: 24px;
-    top: 99vh;
+    top: 65vh;
   }
 }
