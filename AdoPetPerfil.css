@@ -1,0 +1,320 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+/*   font-family: 'IBM Plex Sans', sans-serif;
+  font-family: 'Poppins', sans-serif; */
+}
+.navbar{
+  display: flex;
+  justify-content:stretch;
+  align-items:center;
+  width:100%;
+  height: 12vh;
+  background-color:transparent;
+}
+.logoHeader{
+  height: 29px;
+  display: none;
+}
+.btnHome{
+  width: 19px;
+  height: 23px;
+  margin-left: 13vw;
+}
+.btnEmail{
+  width: 23px;
+  height: 19px;
+  margin-left: 16vw;
+}
+.logoUsuario{
+  height: 40px;
+  margin-left: 40vw;
+}
+.container{
+  background-color:  #fff;
+  background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png);
+  background-repeat: no-repeat;
+  background-position: 0 0, 0 0;
+  background-size: 92vw 33vh, 97vw 38vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-items: center;
+  min-height: 100vh;
+}
+.main-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content:space-between;
+  text-align: center;
+}
+.txtMensagemPrincipal{
+  background-color:transparent;
+  width: 70vw;
+  height: 50px;
+  text-align: center;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: #3772FF;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.formMensagem{
+  display: flex;
+  flex-direction: column;
+  background-color: #F6F6F6;
+  width: 90vw;
+  min-height:55vh;
+  border-radius: 10px;
+  align-items: center;
+  row-gap: 10px;
+  margin-bottom: 15px;
+}
+.formMensagem h3{
+  width: 54px;
+  height: 24px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 24px;
+  color: #737380;
+  margin-top: 30px;
+}
+.formMensagem p{
+  color: #FC7071;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.formMensagem label{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3772FF;
+  width: 76vw;
+  text-align: left;
+  margin-top: 10px;
+}
+.formMensagem input{
+  width: 76vw;
+  height: 48px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-style: none;
+  padding-left: 10px;
+  color: #BCBCBC;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.formMensagem textarea{
+  width: 76vw;
+  height: 172px;
+  background: #FFFFFF;
+  mix-blend-mode: normal;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 6px;
+  border-style: none;
+  color: #BCBCBC;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+#button{
+  width: 148px;
+  height: 40px;
+  left: 106px;
+  top: 816px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background: #FC7071;
+  border-radius: 6px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.footerbar{
+  display: flex;
+  width: 100%;
+  height: 70px;
+  background-color: #36D6AD;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16;
+  font-weight: 400;
+  line-height: 24px;
+  justify-content:center;
+  align-items: center;
+}
+@media(min-width:768px){
+  .container{
+    background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0, right center;
+    background-size: 72vw 38vh, 75vw 41vh, 10vh;
+  }
+  .logoHeader{
+    height: 26px;
+    display:inline-block;
+    margin-left: 6vw;
+  }
+  .btnHome{
+    width: 19px;
+    height: 23px;
+    margin-left: 10vw;
+  }
+  .btnEmail{
+    width: 23px;
+    height: 19px;
+    margin-left: 10vw;
+  }
+  .logoUsuario{
+    height: 56px;
+    margin-left: 40vw;
+  }
+  .txtMensagemPrincipal{
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 90px;
+    margin-bottom: 5px;
+  }
+  .formMensagem{
+    width: 73vw;
+    min-height: 55vh;
+    padding-top: 25px;
+    margin-bottom: 20px;
+  }
+  .formMensagem label{
+    width: 67vw;
+  }
+  .formMensagem input{
+    width: 67vw;
+  }
+  .formMensagem textarea{
+    width: 67vw;
+  }
+  #button{
+    width: 164px;
+  }
+}
+@media(min-width:1024px){
+  .container{
+      background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+      background-repeat: no-repeat;
+      background-position: 0 0, 0 0, right center;
+      background-size: 38%, 40%, 13vh;
+  }
+  .logoHeader{
+      height: 29px;
+      display:inline-block;
+      margin-left: 10vw;
+  }
+  .btnHome{
+      width: 19px;
+      height: 23px;
+      margin-left: 4vw;
+  }
+  .btnEmail{
+      width: 23px;
+      height: 19px;
+      margin-left: 3vw;
+  }
+  .logoUsuario{
+      height: 56px;
+      margin-left: 55vw;
+  }
+  .txtMensagemPrincipal{
+    width: 30vw;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 0px;
+    margin-bottom: 25px;
+  }
+  .formMensagem{
+    width: 40vw;
+    min-height: 70vh;
+    margin-bottom: 20px;
+  }
+  .formMensagem label{
+    width: 35vw;
+  }
+  .formMensagem input{
+    width: 35vw;
+  }
+  .formMensagem textarea{
+    width: 35vw;
+  }
+}
+@media(min-width:1440px){
+  .container{
+      background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+      background-repeat: no-repeat;
+      background-position: 0 0, 0 0, right center;
+      background-size: 35%, 37%, 13vh;
+  }
+  .logoHeader{
+      height: 29px;
+      display:inline-block;
+      margin-left: 10vw;
+  }
+  .btnHome{
+      width: 19px;
+      height: 23px;
+      margin-left: 4vw;
+  }
+  .btnEmail{
+      width: 23px;
+      height: 19px;
+      margin-left: 3vw;
+  }
+  .logoUsuario{
+      height: 56px;
+      margin-left: 55vw;
+  }
+  .txtMensagemPrincipal{
+    width: 35vw;
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .formMensagem{
+    width: 40vw;
+    min-height: 60vh;
+    margin-bottom: 50px;
+  }
+  .formMensagem label{
+    width: 35vw;
+  }
+  .formMensagem input{
+    width: 35vw;
+  }
+  .formMensagem textarea{
+    width: 35vw;
+  }
+}
