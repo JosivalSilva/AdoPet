@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./AdoPetTelaMensagem.css">
+  <title>AdoPet-Mensagem</title>
+</head>
+<body class="container">
+  <section class="main-container">
+    <header class="navbar">
+      <a href=""><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
+      <a href=""><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
+      <a href=""><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
+      <a href=""><img class="logoUsuario" src="./Mobile/Header Imagens/Usuário.png" alt=""></a>
+    </header>
+      <div class="txtMensagemPrincipal">
+        <p>
+          Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
+        </p>
+      </div>
+      <form class="formMensagem" method="post" action="">
+        <label for="nome">Nome</label>
+        <input type="text" name="nome" id="" placeholder="Insira seu nome completo">
+          <label for="tel">Telefone</label>
+          <input type="tel" name="tel" id="" placeholder="Insira seu telefone e/ou whatsapp">
+            <label for="nomeAnimal">Nome do Animal</label>
+            <input type="text" name="nomeAnimal" id="" placeholder="Por qual animal vc se interessou?">
+          <label for="mensagm">Mensagem</label>
+          <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+        <label for="enviar"></label>
+        <input type="button" value="Enviar" name="enviar" id="button">
+      </form>
+      <footer class="footerbar">
+        <p>2022 - Desenvolvido por Josival Silva</p>
+      </footer>
+  </section>
+</body>
+</html>
