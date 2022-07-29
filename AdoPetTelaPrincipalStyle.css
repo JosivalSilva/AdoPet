@@ -69,6 +69,10 @@
   position: absolute;
   top: 38%;
 }
+.formulario{
+  display: flex;
+  justify-content: center;
+}
 .btnCadastrado, .btnCadastrar{
   width: 180px;
   height: 40px;
@@ -82,6 +86,7 @@
   line-height: 24px;
   color: #fff;
   position: absolute;
+  cursor: pointer;
 }
 .btnCadastrado{
   top: 51%;
@@ -112,10 +117,6 @@
   .navbar{
     gap: 7vh;
   }
- /*  .logoHeader{
-    display:inline-block;
-    margin-left: 60px;
-  } */
   .btnHome{
     margin-left: 20px;
   }

@@ -17,24 +17,26 @@
     <a href=""><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
   </header>
   <section class="main-container">
-    <img src="./Mobile/Logo/Logo_-_azul.svg" alt="" class="imgLogo">
-    <p class="txtCadastro" id="txtCad1">
-      Ainda não tem cadastro?
-    </p>
-    <p class="txtCadastro" id="txtCad2">
-      Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
-    </p>
-      <div class="inputs">
-        <label for="email">Emal</label>
+    <div class="cabeçalho">
+      <img src="./Mobile/Logo/Logo_-_azul.svg" alt="" class="imgLogo">
+      <p class="txtCadastro" id="txtCad1">
+        Ainda não tem cadastro?
+      </p>
+      <p class="txtCadastro" id="txtCad2">
+        Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
+      </p>
+    </div>
+      <form class="inputs">
+        <label for="email" id="labelEmail">Email</label>
         <input type="email" name="email" id="inputEmail" placeholder="Escolha seu melhor email">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="inputNome" placeholder="Digite seu nome completo">
-        <label for="senha">Senha</label>
-        <input type="password" name="senha" id="inputSenha" placeholder="Crie uma senha">
-        <label for="confirmaSenha">Confirmar Senha</label>
-        <input type="password" name="confirmaSenha" id="inputConfirmaSenha" placeholder="Repita a senha criada acima">
-      </div>
-    <button class="btnCadastrar">Cadastrar</button>  
+          <label for="nome">Nome</label>
+          <input type="text" name="nome" id="inputNome" placeholder="Digite seu nome completo">
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="inputSenha" placeholder="Crie uma senha">
+              <label for="confirmaSenha">Confirmar Senha</label>
+              <input type="password" name="confirmaSenha" id="inputConfirmaSenha" placeholder="Repita a senha criada acima">
+                <button class="btnCadastrar">Cadastrar</button>
+      </form>     
   </section>
   <footer class="footerbar">
     <p>2022 - Desenvolvido por Josival Silva</p>
