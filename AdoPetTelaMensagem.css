@@ -125,7 +125,40 @@
   padding-top: 10px;
   padding-left: 10px;
 }
+.input-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-container span{
+  margin-top: 10px;
+}
+/* .input-container--invalido {
+  margin-bottom: 0.5rem;
+} */
+
+.input-container--invalido .input {
+  border: 1px solid red;
+}
+
+.input-container--invalido .input-label {
+  color: red;
+}
+
+.input-mensagem-erro {
+  display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+  color: red;
+  display: block;
+
+}
 #button{
+  border: none;
+  cursor: pointer;
   width: 148px;
   height: 40px;
   left: 106px;

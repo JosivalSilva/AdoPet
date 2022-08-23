@@ -12,9 +12,9 @@
 </head>
 <body class="container">
   <header class="navbar">
-    <a href=""><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
-    <a href=""><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
-    <a href=""><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
+    <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
+    <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
+    <a href="./AdoPetTelaMensagem.html"><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
   </header>
   <section class="main-container">
     <div class="cabeçalho">
@@ -26,20 +26,37 @@
         Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
       </p>
     </div>
-      <form class="inputs">
-        <label for="email" id="labelEmail">Email</label>
-        <input type="email" name="email" id="inputEmail" placeholder="Escolha seu melhor email">
+      <form class="inputs" action="./AdoPetTelaHome.html">
+        <div class="input-container">
+          <label for="email" id="labelEmail">Email</label>
+            <input class="input" type="email" name="email" id="email" placeholder="Escolha seu melhor email" required data-tipo="email">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>    
+
+        <div class="input-container">
           <label for="nome">Nome</label>
-          <input type="text" name="nome" id="inputNome" placeholder="Digite seu nome completo">
-            <label for="senha">Senha</label>
-            <input type="password" name="senha" id="inputSenha" placeholder="Crie uma senha">
-              <label for="confirmaSenha">Confirmar Senha</label>
-              <input type="password" name="confirmaSenha" id="inputConfirmaSenha" placeholder="Repita a senha criada acima">
-                <button class="btnCadastrar">Cadastrar</button>
+            <input class="input" type="text" name="nome" id="nome" placeholder="Digite seu nome completo" required data-tipo="nome">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+
+        <div class="input-container">
+          <label for="senha">Senha</label>
+            <input class="input" type="password" name="senha" id="senha" placeholder="Crie uma senha" required data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_+=-]).{6,12}$" title="A senha deve conter no minimo 6 e no máximo 12 caracteres, com no minimo uma letra maiscúla e um digito de 0 a 9. Não deve conter símbolos.">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+
+        <div class="input-container">
+          <label for="confirmaSenha">Confirmar Senha</label>
+            <input class="input" type="password" name="confirmaSenha" id="inputConfirmaSenha" placeholder="Repita a senha criada acima" required data-tipo="senha" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_+=-]).{6,12}$" title="A senha deve conter no minimo 6 e no máximo 12 caracteres, com no minimo uma letra maiscúla e um digito de 0 a 9. Não deve conter símbolos.">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+
+        <button class="btnCadastrar" type="submit">Cadastrar</button>
       </form>     
   </section>
   <footer class="footerbar">
     <p>2022 - Desenvolvido por Josival Silva</p>
   </footer>
+  <script src="./js/Validação.js"></script>
 </body>
 </html>

@@ -13,9 +13,9 @@
 <body class="container">
   <section class="main-container">
     <header class="navbar">
-      <a href=""><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
-      <a href=""><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
-      <a href=""><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
+      <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
+      <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
+      <a href="./AdoPetTelaMensagem.html"><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
       <a href=""><img class="logoUsuario" src="./Mobile/Header Imagens/Usuário.png" alt=""></a>
     </header>
       <div class="txtMensagemPrincipal">
@@ -23,21 +23,33 @@
           Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:
         </p>
       </div>
-      <form class="formMensagem" method="post" action="">
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="" placeholder="Insira seu nome completo">
+      <form class="formMensagem" method="" action="">
+        <div class="input-container">
+          <label for="nome">Nome</label>
+            <input class="input" type="text" name="nome" id="nome" placeholder="Insira seu nome completo" required data-tipo="nome">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">
           <label for="tel">Telefone</label>
-          <input type="tel" name="tel" id="" placeholder="Insira seu telefone e/ou whatsapp">
+            <input class="input" type="tel" name="tel" id="" placeholder="Insira seu telefone e/ou whatsapp com DDD" pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}" required data-tipo="tel">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">  
             <label for="nomeAnimal">Nome do Animal</label>
-            <input type="text" name="nomeAnimal" id="" placeholder="Por qual animal vc se interessou?">
+              <input class="input" type="text" name="nomeAnimal" id="" placeholder="Por qual animal vc se interessou?" required data-tipo="nome">
+                <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">    
           <label for="mensagm">Mensagem</label>
-          <textarea name="mensagem" id="" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
-        <label for="enviar"></label>
-        <input type="button" value="Enviar" name="enviar" id="button">
+            <textarea class="input" name="mensagem" id="" cols="30" rows="10" placeholder="Escreva sua mensagem" required></textarea>
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>  
+        <button id="button" type="submit">Enviar</button>
       </form>
       <footer class="footerbar">
         <p>2022 - Desenvolvido por Josival Silva</p>
       </footer>
   </section>
+  <script src="./js/Validação.js"></script>
 </body>
 </html>

@@ -88,6 +88,37 @@
   margin-top: 15px;
   margin-bottom: 5px;
 }
+.input-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-container span{
+  margin-top: 10px;
+}
+/* .input-container--invalido {
+  margin-bottom: 0.5rem;
+} */
+
+.input-container--invalido .input {
+  border: 1px solid red;
+}
+
+.input-container--invalido .input-label {
+  color: red;
+}
+
+.input-mensagem-erro {
+  display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+  color: red;
+  display: block;
+
+}
 #labelEmail{
   margin-top: 5px;
 }
@@ -111,6 +142,7 @@
   height: 40px;
   background-color: #FC7071;
   border: none;
+  cursor: pointer;
   border-radius: 6px;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
