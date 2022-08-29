@@ -16,7 +16,7 @@
       <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Logo/Logo.svg" alt="" class="logoHeader"></a>
       <a href="./AdoPetTelaPrincipal.html"><img src="./Mobile/Header Imagens/Casa.png" alt="" class="btnHome"></a>
       <a href="./AdoPetTelaMensagem.html"><img src="./Mobile/Header Imagens/Mensagens.png" alt="" class="btnEmail"></a>
-      <a href=""><img class="logoUsuario" src="./Mobile/Header Imagens/Usuário.png" alt=""></a>
+      <a href=""><img class="logoUsuario" id="logoUsuario" src="./Mobile/Header Imagens/Usuário.png" alt="Foto de perfil do usuário logado."></a>
     </header>
       <div class="txtMensagemPrincipal">
         <p>
@@ -24,23 +24,39 @@
         </p>
       </div>
       <form class="formMensagem" method="" action="">
-        <h3>Perfil</h3>
-        <label for="fotoUsuario">Foto</label>
-        <a href=""><img src="./Mobile/Header Imagens/Usuário.png" class="imagemUsuario" alt="" name="fotoUsuario"></a>
-        <p class="avisoEditar">Clique na foto para editar</p>
-        <label for="nome">Nome</label>
-        <input type="text" name="nome" id="" placeholder="Digite seu nome aqui.">
+        <div class="input-container">
+          <h3>Perfil</h3>
+            <label for="fotoUsuario">Foto</label>
+              <img src="./Mobile/Header Imagens/Usuário.png" class="imagemUsuario" id="imagemUsuario" alt="Foto de perfil do usuário logado." name="fotoUsuario">
+                <label id="selecao" for="selecaoArquivo">Clique aqui para editar a foto</label>
+                  <input id="selecaoArquivo" type="file" onchange="showThumbnail(this);"/>
+        </div>
+        <div class="input-container">  
+          <label for="nome">Nome</label>
+            <input class="input" type="text" name="nome" id="" placeholder="Digite seu nome aqui." required data-tipo="nome">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">
           <label for="tel">Telefone</label>
-          <input type="tel" name="tel" id="" placeholder="(XX) XXXXXXXXX">
-            <label for="cidade">Cidade</label>
-            <input type="text" name="cidade" id="" placeholder="Digite o nome de sua cidade aqui.">
+            <input class="input" type="tel" name="tel" id="" placeholder="(XX) XXXXXXXXX" required data-tipo="tel" pattern="\(?\d{2}\)?\s?9?\d{4}-?\d{4}">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">  
+          <label for="cidade">Cidade</label>
+            <input class="input" type="text" name="cidade" id="" placeholder="Digite o nome de sua cidade aqui." required data-tipo="cidade">
+              <span class="input-mensagem-erro">Este campo não está válido</span>
+        </div>
+        <div class="input-container">    
           <label for="sobre">Sobre</label>
-          <textarea name="sobre" id="" cols="30" rows="10" placeholder="Escreva sobre você."></textarea>
+          <textarea name="sobre" id="" cols="30" rows="10" placeholder="Escreva sobre você." required></textarea>
+        </div>  
           <button id="button" type="submit">Salvar</button>
       </form>
       <footer class="footerbar">
         <p>2022 - Desenvolvido por Josival Silva</p>
       </footer>
   </section>
+  <script src="./js/Validação.js"></script>
+  <script src="./js/editarFoto.js"></script>
 </body>
 </html>

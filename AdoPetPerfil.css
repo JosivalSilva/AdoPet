@@ -28,8 +28,15 @@
   margin-left: 16vw;
 }
 .logoUsuario{
-  height: 40px;
+  width: 60px;
+  height: 60px;
   margin-left: 40vw;
+  border-radius: 50px;
+}
+.imagemUsuario{
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
 }
 .container{
   background-color:  #fff;
@@ -78,6 +85,37 @@
   row-gap: 10px;
   margin-bottom: 15px;
 }
+.input-container{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+.input-container span{
+  margin-top: 10px;
+}
+/* .input-container--invalido {
+  margin-bottom: 0.5rem;
+} */
+
+.input-container--invalido .input {
+  border: 1px solid red;
+}
+
+.input-container--invalido .input-label {
+  color: red;
+}
+
+.input-mensagem-erro {
+  display: none;
+}
+
+.input-container--invalido .input-mensagem-erro {
+  color: red;
+  display: block;
+
+}
 .formMensagem h3{
   width: 54px;
   height: 24px;
@@ -107,6 +145,14 @@
   width: 76vw;
   text-align: left;
   margin-top: 10px;
+}
+.formMensagem #selecao{
+  text-align: center;
+  color: red;
+  cursor: pointer;
+}
+#selecaoArquivo{
+  display: none;
 }
 .formMensagem input{
   width: 76vw;
