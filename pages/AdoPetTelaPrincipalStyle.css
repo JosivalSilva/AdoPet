@@ -27,7 +27,7 @@
 }
 .container{
   background-color: #3772ff;
-  background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png), url(./Mobile/Logo/Ilustração_\(3\).png);
+  background-image: url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png), url(../Mobile/Logo/Ilustração_\(3\).png);
   background-repeat: no-repeat;
   background-position: 0 0, 0 0, center right, center bottom;
   background-size: 92vw, 97vw, 20vw, 30vh;

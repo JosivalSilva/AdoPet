@@ -29,7 +29,7 @@
 }
 .container{
   background-color:  #fff;
-  background-image:  url(./Mobile/Logo/Patas.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Mobile/Logo/esquerdo.png);
+  background-image:  url(../Mobile/Logo/Patas.png), url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Mobile/Logo/esquerdo.png);
   background-repeat: no-repeat;
   background-position: top right, 0 0, 0 0, left 70%;
   background-size: 42vw, 92vw, 97vw, 23vh;
@@ -171,7 +171,7 @@
 }
 @media(min-width:768px){
   .container{
-  background-image:  url(./Mobile/Logo/Patas.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+  background-image:  url(../Mobile/Logo/Patas.png), url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png);
   background-repeat: no-repeat;
   background-position: top right, 0 0, 0 0, right 18vh;
   background-size: 28%, 68%, 73%, 18%;
@@ -223,7 +223,7 @@
 }
 @media(min-width:1024px){
   .container{
-  background-image:  url(./Mobile/Logo/Patas.png), url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+  background-image:  url(../Mobile/Logo/Patas.png), url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png);
   background-repeat: no-repeat;
   background-position: top right, 0 0, 0 0, right 40vh;
   background-size: 28%, 68%, 73%, 13%;

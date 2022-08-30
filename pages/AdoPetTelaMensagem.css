@@ -33,7 +33,7 @@
 }
 .container{
   background-color:  #fff;
-  background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png);
+  background-image: url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png);
   background-repeat: no-repeat;
   background-position: 0 0, 0 0;
   background-size: 92vw 33vh, 97vw 38vh;
@@ -189,7 +189,7 @@
 }
 @media(min-width:768px){
   .container{
-    background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+    background-image: url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png);
     background-repeat: no-repeat;
     background-position: 0 0, 0 0, right center;
     background-size: 72vw 38vh, 75vw 41vh, 10vh;
@@ -240,7 +240,7 @@
 }
 @media(min-width:1024px){
   .container{
-      background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+      background-image: url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png);
       background-repeat: no-repeat;
       background-position: 0 0, 0 0, right center;
       background-size: 38%, 40%, 13vh;
@@ -288,7 +288,7 @@
 }
 @media(min-width:1440px){
   .container{
-      background-image: url(./Formas/Vector\ 1.png), url(./Formas/Vector\ 4.png), url(./Formas/Forma\ 2.png);
+      background-image: url(../Formas/Vector\ 1.png), url(../Formas/Vector\ 4.png), url(../Formas/Forma\ 2.png);
       background-repeat: no-repeat;
       background-position: 0 0, 0 0, right center;
       background-size: 35%, 37%, 13vh;
