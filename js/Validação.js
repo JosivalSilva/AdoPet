@@ -22,6 +22,7 @@ function valida(input){
   if(input.validity.valid) {
     input.parentElement.classList.remove("input-container--invalido");
     input.parentElement.querySelector(".input-mensagem-erro").innerHTML = ""
+    input.parentElement.querySelector(".input-mensagem-erro").innerHTML = "A senha deve conter no   minimo 6 e no máximo 12 caracteres, com no minimo uma letra maiscúla e um digito de 0 a 9. Não deve conter símbolos."
   } else {
     input.parentElement.classList.add("input-container--invalido");
     input.parentElement.querySelector(".input-mensagem-erro").innerHTML = mostraMensagemDeErro(tipoDeInput, input)

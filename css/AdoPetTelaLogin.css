@@ -120,14 +120,34 @@
   display: none;
 }
 
+.input-mensagem-senha {
+  width: 312px;
+  height: 40px;
+  display: block;
+  color: #737380;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
 .input-container--invalido .input-mensagem-erro {
   color: red;
   display: block;
   margin-top: 10px;
   margin-bottom: 10px;
-
-
 }
+
+.olhos {
+  width: 2rem;
+  height: 2rem;
+  position: relative;
+  bottom: 2.1rem;
+  left: 8rem;
+  z-index: 1;
+}
+
 .txtEsqueciSenha{
 /*   position: absolute;
   top: 26vh; */

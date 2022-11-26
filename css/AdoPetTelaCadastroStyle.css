@@ -113,6 +113,25 @@
 
 .input-mensagem-erro {
   display: none;
+  width: 312px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.input-mensagem-senha {
+  width: 312px;
+  height: 40px;
+  display: block;
+  color: #737380;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .input-container--invalido .input-mensagem-erro {
